@@ -3,7 +3,7 @@ Waveshaper effect for Teensy Audio. Almost complete.
 
 ![Waveshaper input vs output](https://github.com/dxinteractive/TeensyAudioWaveshaper/blob/master/docs/example2.gif)
 
-Maps audio input to an output using a linearly interpolated lookup table. Useful for overdrive, distortion, fuzzes, clipping, expo converters, phase inversion, waveform modification and control wave adjustments.
+Maps audio input to an output using a linearly interpolated lookup table. Useful for overdrive, distortion, fuzzes, clipping, expo converters, phase inversion, waveform modification and adjustments etc.
 
 ### `waveshaper.shape(int16_t* waveshape, int length);`
 - **`waveshape`** is an array containing the values to map to. An input value of -32768 will map to the value of the first element of the array, and an input value of 32767 will map to the value of the last element. All input values between these will be interpolated evenly across the values in the waveshape array.
