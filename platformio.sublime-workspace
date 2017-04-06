@@ -1,0 +1,900 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Bi",
+				"BitshiftVisualizationData"
+			],
+			[
+				"Bits",
+				"BitshiftEffectFilter"
+			],
+			[
+				"Bit",
+				"BitshiftAudioDefault"
+			],
+			[
+				"BitshiftMen",
+				"BitshiftUIStateMenuExpAssign"
+			],
+			[
+				"param",
+				"paramset"
+			],
+			[
+				"Bitshi",
+				"BitshiftEffectVolume"
+			],
+			[
+				"ana",
+				"analogParamNames"
+			],
+			[
+				"anal",
+				"analogTotal"
+			],
+			[
+				"BUTTON",
+				"BUTTONEVENT_PRESS"
+			],
+			[
+				"inc",
+				"inclusive"
+			],
+			[
+				"Audio",
+				"audioNoInterrupts"
+			],
+			[
+				"Bitshift",
+				"BitshiftUIStateSplash"
+			],
+			[
+				"squares",
+				"squaresTotal"
+			],
+			[
+				"Bith",
+				"BitshiftUIStateMenuMain"
+			],
+			[
+				"all",
+				"allItemsTotal"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"audio",
+				"audioStream"
+			],
+			[
+				"analo",
+				"analogParamOffset"
+			],
+			[
+				"new",
+				"newState"
+			],
+			[
+				"Bitsh",
+				"BitshiftUIState"
+			],
+			[
+				"_param",
+				"_paramsTotal"
+			],
+			[
+				"float",
+				"floatValue"
+			],
+			[
+				"presets",
+				"presetsTotal"
+			],
+			[
+				"BitshiftI",
+				"BitshiftInputDefault"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"beats",
+				"beatsUntilChainReset"
+			],
+			[
+				"total",
+				"totalTapValues"
+			],
+			[
+				"mil",
+				"millisUntilChainReset"
+			],
+			[
+				"reset",
+				"resetTapChain"
+			],
+			[
+				"Ard",
+				"ArduinoTapTempo"
+			],
+			[
+				"render",
+				"renderChain"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"Progr",
+				"ProgramPage"
+			],
+			[
+				"timou",
+				"timeout_ms"
+			],
+			[
+				"you",
+				"youtube"
+			],
+			[
+				"youtube",
+				"youtubeKeywords"
+			],
+			[
+				"Program",
+				"ProgramDetails"
+			],
+			[
+				"imdb",
+				"imdbRating"
+			],
+			[
+				"pop",
+				"popReady"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"loop",
+				"loop_ms"
+			],
+			[
+				"add",
+				"addProgram"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.ino",
+			"settings":
+			{
+				"buffer_size": 1219,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/TeensyAudioPlotter/TeensyAudioPlotter.h",
+			"settings":
+			{
+				"buffer_size": 837,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/TeensyAudioPlotter/TeensyAudioPlotter.cpp",
+			"settings":
+			{
+				"buffer_size": 1114,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "[04/04/17 20:40:28] Processing teensy31 (platform: teensy, board: teensy31, framework: arduino)\n\nVerbose mode can be enabled via `-v, --verbose` option\nConverting main.ino\nCollected 91 compatible libraries\nLooking for dependencies...\nLibrary Dependency Graph\n|-- <SD> v1.0.8\n|   |-- <SPI> v1.0\n|-- <TeensyAudioPlotter>\n|-- <SerialFlash>\n|   |-- <SPI> v1.0\n|-- <Wire> v1.0\n|-- <Audio> v1.3\n|   |-- <SerialFlash>\n|   |   |-- <SPI> v1.0\n|   |-- <SPI> v1.0\n|   |-- <SD> v1.0.8\n|   |   |-- <SPI> v1.0\n|   |-- <Wire> v1.0\n|-- <SPI> v1.0\nCompiling .pioenvs\\teensy31\\src\\main.ino.o\nLinking .pioenvs\\teensy31\\firmware.elf\nChecking program size\ntext	   data	    bss	    dec	    hex	filename\n16064	    172	  13908	  30144	   75c0	.pioenvs\\teensy31\\firmware.elf\nBuilding .pioenvs\\teensy31\\firmware.hex\nUploading .pioenvs\\teensy31\\firmware.hex\nTeensy Loader, Command Line, Version 2.1\nRead \".pioenvs\\teensy31\\firmware.hex\": 16236 bytes, 6.2% usage\nSoft reboot is not implemented for Win32\nWaiting for Teensy device...\n(hint: press the reset button)\nFound HalfKay Bootloader\nRead \".pioenvs\\teensy31\\firmware.hex\": 16236 bytes, 6.2% usage\nProgramming................\nBooting\n [SUCCESS] Took 4.42 seconds \n[Finished in 4.8s]",
+			"settings":
+			{
+				"buffer_size": 1208,
+				"line_ending": "Windows",
+				"name": "Build output",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "PlatformIO",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"PlatformIO",
+					""
+				],
+				[
+					"PlatformIO",
+					"Build"
+				],
+				[
+					"PlatformIO",
+					"Clean"
+				],
+				[
+					"PlatformIO",
+					"Test"
+				],
+				[
+					"PlatformIO",
+					"Upload"
+				],
+				[
+					"PlatformIO",
+					"Upload using Programmer"
+				],
+				[
+					"PlatformIO",
+					"Upload SPIFFS image"
+				],
+				[
+					"PlatformIO",
+					"Update platforms and libraries"
+				]
+			],
+			[
+				"PlatformIO",
+				"Upload"
+			]
+		]
+	],
+	"build_varint": "Upload",
+	"command_palette":
+	{
+		"height": 409.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"editor",
+				"Set Syntax: EditorConfig"
+			],
+			[
+				"buildv",
+				"Disable/Enable buildview for this window"
+			],
+			[
+				"build",
+				"Disable/Enable buildview for this window"
+			],
+			[
+				"log high",
+				"Set Syntax: Log Highlight"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"preser",
+				"MultiEditUtils: Preserve Case"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 619.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-waveshaper",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-waveshaper/lib",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-waveshaper/lib/TeensyAudioPlotter",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-waveshaper/src"
+	],
+	"file_history":
+	[
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-waveshaper/src/effect_waveshaper.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/Audio/effect_fade.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/effect_waveshaper.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-waveshaper/src/main.ino",
+		"/C/Users/Damienn/Documents/make/arduino/bitshift/src/AnalogMultiButton.h",
+		"/C/Users/Damienn/Documents/make/arduino/bitshift/src/uistate.h",
+		"/C/Users/Damienn/Documents/make/arduino/bitshift/src/ui.h",
+		"/C/Users/Damienn/Documents/make/arduino/bitshift/src/effect_filter.cpp",
+		"/C/Users/Damienn/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Damienn/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/test_moddelay.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/effect_moddelay.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/effect_moddelay.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/main.ino",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/test_waveshaper.h",
+		"/C/Users/Damienn/Desktop/t.txt",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/test.cpp",
+		"/C/Users/Damienn/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/Damienn/AppData/Roaming/Sublime Text 3/Packages/User/Log Highlight.sublime-settings",
+		"/C/Users/Damienn/AppData/Roaming/Sublime Text 3/Packages/Log Highlight/Log Highlight.sublime-settings",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/effect_waveshaper.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/test.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/lib/readme.txt",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/analyze_logger.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/processing_plotter/processing_plotter.pde",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/test_waveshaper.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/test/runner.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/effect/runner_waveshaper.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/effect/runner_waveshaper.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/test_tapedelay.ino",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/src/test_waveshaper.ino",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/output_stepper.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/output_stepper.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/README.md",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/analyze_logger.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/analyze_logger.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/output_logger.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/teensy-audio-io-test.ino",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/Audio/output_pwm.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/Audio/output_pwm.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/Audio/synth_waveform.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/output_logger.h",
+		"/C/Users/Damienn/Documents/make/arduino/xmas-steps/xmas.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/mock_output.h",
+		"/C/Users/Damienn/Documents/make/arduino/teensy-audio-io-test/mock_output.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/visualizationdata.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_tremolo.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/preset_tremolo.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/preset_tremolo.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/preset.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/preset.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/audio.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_lfo.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_lfo.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/props.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/display_SSD1306.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_param.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_param.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/ui_default.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/audio_default.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/audio_default.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/input_consts.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_preset.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_preset.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/input_default.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_tremolo.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/preset_bitcrusher.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/preset_bitcrusher.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/preset_filter.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/preset_filter.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_filter.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_filter.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_bitcrusher.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_bitcrusher.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/ui.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_menu_expassign.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_menu_expassign.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_menu_main.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_expassign.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_menu.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_menu_main.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_expassign.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/display_SSD1306.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/display.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/bitshift.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/paramset.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_volume.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect_volume.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/analog.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/analog.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/analog_param.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/analog_exp.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/ui_default.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_message.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_usage.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/ui.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_inputs.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_inputs.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_menu_param.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_menu_param.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_menu.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/effect.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/input.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/input_default.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_splash.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_splash.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/Adafruit_GFX/Adafruit_GFX.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/Adafruit_GFX/Adafruit_GFX.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/bitshift.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/input.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/router.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/router.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_message.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_usage.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/Adafruit_SSD1306/Adafruit_SSD1306.cpp",
+		"/C/Users/Damienn/Documents/make/web/react-component-grid/src/Test.js",
+		"/C/Users/Damienn/Documents/make/web/react-component-grid/package.json",
+		"/C/Users/Damienn/Documents/make/web/react-component-grid/docs/api/taffy.json",
+		"/C/Users/Damienn/Documents/make/web/react-component-grid/jsdoc.json",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/menuitem.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/menuitem_pushstate.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/menuitem_pushstate.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/math.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/math.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift-v1/chain.h"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"isNewBlock",
+			"_stepper",
+			"    ",
+			"10",
+			"const",
+			"analyze_logger_h_",
+			"),",
+			"// ",
+			"mod",
+			"x",
+			"shiftedModdedPosition",
+			"moddedPosition",
+			"index",
+			"position",
+			"lerpshift",
+			"offset",
+			"index",
+			"count",
+			"tail",
+			"head",
+			"end",
+			"src",
+			"modulation",
+			"return",
+			"waveform",
+			"DELAY_QUEUE_SIZE",
+			"queue",
+			"position",
+			"[0]",
+			"position",
+			"con",
+			"channel",
+			"AudioEffectDelay",
+			"waveshaper",
+			"AudioEffectDelay",
+			"effect_delay_h_",
+			"WAVESHAPE_UNIPOLAR",
+			"test_waveshaper_h_",
+			"TestWaveshaper",
+			"loggers[1]",
+			"loggers[0]",
+			"int",
+			"testWaveshaper",
+			"wetLogger",
+			"dryLogger",
+			"delay1",
+			"sampleIndex",
+			"runner",
+			"AudioConnection",
+			"runner_h_",
+			"#ifndef runner_h_\n",
+			"AudioEffect",
+			"effect_waveshaper_h_",
+			"analyze_logger_h_",
+			"ude",
+			"waveshaper",
+			"release",
+			"queue",
+			"	",
+			"logger",
+			"AudioOutputLogger",
+			"output_logger",
+			"AudioOutputLogger",
+			"effect_fade_h_",
+			"AudioEffectFade",
+			"AudioOutputLogger",
+			"tone_amp",
+			"update_responsibility",
+			"update_setup",
+			"update_scheduled",
+			"output_pwm_h_",
+			"AudioOutputPWM",
+			" const;",
+			"const",
+			") const",
+			"const {",
+			"const",
+			" / 2.5",
+			"props.visualizationData->",
+			"12",
+			"slopeDown",
+			"SAW_REVERSE",
+			"Saw rev",
+			"52",
+			"2",
+			"imax",
+			"points",
+			"wavetableVis",
+			"wavetableVisualization",
+			"waveVisualization",
+			"char* str, ",
+			"int",
+			"ata(int",
+			"}",
+			"BitshiftVisualizationData",
+			"Data*",
+			"ualizationData* paramVisualizationData(int paramId) const { return 0; }\n    BitshiftVisualizationData*",
+			"ta",
+			"onData(str, ",
+			"str,",
+			"paramVisualizationData",
+			"void",
+			"ValueString",
+			" {}",
+			"virtual",
+			"BITSHIFT_PROPS_H",
+			"{}",
+			"void",
+			";",
+			"void",
+			"BitshiftAudioDefault",
+			");",
+			"    virtual void ",
+			" {}",
+			"analogId",
+			"EXPASSIGN_M",
+			"expId",
+			"id >> BUTTONTYPES_BITSHIFT",
+			"BUTTONTYPES_TAP",
+			"BUTTONTYPES_",
+			"BUTTONTYPE_",
+			"0 << BUTTONTYPES_BITSHIFT",
+			"buttonsAssign",
+			"ANALOGTYPES",
+			"ANALOG_TYPES",
+			" =",
+			"params",
+			","
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ANALOGTYPES",
+			" * █▄   ▀ ▄█▄    █▄   ▀ ▄▀ ▄█▄\n * █▄▀ ▀█  ▀▄ ▄▀ █ █ ▀█ █▀  ▀▄\n *",
+			"filter",
+			"Filter",
+			"stan-enhance-dot",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								861,
+								861
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/TeensyAudioPlotter/TeensyAudioPlotter.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								806,
+								816
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/TeensyAudioPlotter/TeensyAudioPlotter.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								994,
+								994
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1208,
+								1208
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\Damienn\\Documents\\make\\arduino\\teensy-audio-waveshaper",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "PlatformIO",
+	"project": "platformio.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"output_pwm.h",
+				"Audio\\output_pwm.h"
+			],
+			[
+				"input",
+				"input_consts.h"
+			],
+			[
+				"pres",
+				"preset.cpp"
+			],
+			[
+				"input_c",
+				"input_consts.h"
+			],
+			[
+				"prop",
+				"props.h"
+			],
+			[
+				"input_",
+				"bitshift\\input_consts.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Damienn\\Documents\\make\\web\\entity-editor.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 343.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
