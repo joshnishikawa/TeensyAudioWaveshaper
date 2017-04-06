@@ -1,3 +1,10 @@
+/*
+ * Audio plotter for Teensy Audio
+ * Not yet officially released, will finalise soon.
+ * Copyright (c) 2017 Damien Clarke
+ * damienclarke.me | github.com/dxinteractive
+ */
+
 #ifndef analyze_logger_h_
 #define analyze_logger_h_
 

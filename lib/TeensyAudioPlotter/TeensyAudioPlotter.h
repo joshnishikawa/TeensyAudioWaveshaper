@@ -1,3 +1,10 @@
+/*
+ * Audio plotter for Teensy Audio
+ * Not yet officially released, will finalise soon.
+ * Copyright (c) 2017 Damien Clarke
+ * damienclarke.me | github.com/dxinteractive
+ */
+
 #ifndef TEENSY_AUDIO_PLOTTER_H
 #define TEENSY_AUDIO_PLOTTER_H
 
