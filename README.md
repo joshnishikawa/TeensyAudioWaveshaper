@@ -58,3 +58,5 @@ void setup() {
 void loop() {
 }
 ```
+
+*The GIF above uses a rough draft of https://github.com/dxinteractive/TeensyAudioPlotter for plotting Teensy Audio values*
