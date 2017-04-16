@@ -8,7 +8,7 @@ Maps audio input to an output using a linearly interpolated lookup table. Useful
 ### `waveshaper.shape(int16_t* waveshape, int length);`
 - **`waveshape`** is an array containing the values to map to. An input value of -32768 will map to the value of the first element of the array, and an input value of 32767 will map to the value of the last element. All input values between these will be interpolated evenly across the values in the waveshape array.
 
-- **`length`** must be equal to the length of the `waveshape` array, which must be of length n^2 + 1 where 0 <= n < 16. Therefore the following array lengths are permitted: 2, 3, 5, 9, 17, 33, 65, 129, 257, 513, 1025, 2049, 4097, 8193, 16385.
+- **`length`** must be equal to the length of the `waveshape` array, which must be of length n^2 + 1 where 0 <= n < 16. Therefore the following array lengths are permitted: 2, 3, 5, 9, 17, 33, 65, 129, 257, 513, 1025, 2049, 4097, 8193, 16385, 32769.
 
 ### Example usage
 
