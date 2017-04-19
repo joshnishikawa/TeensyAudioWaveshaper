@@ -5,8 +5,8 @@ Waveshaper effect for Teensy Audio. Almost complete.
 
 Maps audio input to an output using a linearly interpolated lookup table. Useful for overdrive, distortion, fuzzes, clipping, expo converters, phase inversion, waveform modification and control wave adjustments.
 
-### `waveshaper.shape(int16_t* waveshape, int length);`
-- **`waveshape`** is an array containing the values to map to. An input value of -32768 will map to the value of the first element of the array, and an input value of 32767 will map to the value of the last element. All input values between these will be interpolated evenly across the values in the waveshape array.
+### `waveshaper.shape(float* waveshape, int length);`
+- **`waveshape`** is an array containing the values to map to. These are floats in the range -1.0 to 1.0 inclusive. An input value of -1.0 will map to the value of the first element of the array, and an input value of 1.0 will map to the value of the last element. All input values between these will be interpolated evenly across the values in the waveshape array.
 
 - **`length`** must be equal to the length of the `waveshape` array, which must be of length n^2 + 1 where 0 <= n < 16. Therefore the following array lengths are permitted: 2, 3, 5, 9, 17, 33, 65, 129, 257, 513, 1025, 2049, 4097, 8193, 16385.
 
@@ -28,25 +28,27 @@ AudioConnection patchCord1(waveform, 0, waveshaper, 0);
 AudioConnection patchCord2(waveshaper, 0, output, 0);
 AudioControlSGTL5000 audioAdaptor;
 
-int16_t WAVESHAPE_EXAMPLE[17] = {
-  -19300,
-  -19000,
-  -18000,
-  -16000,
-  -13000,
-  -10500,
-  -7500,
-  -4000,
+float WAVESHAPE_EXAMPLE[17] = {
+  -0.588,
+  -0.579,
+  -0.549,
+  -0.488,
+  -0.396,
+  -0.320,
+  -0.228,
+  -0.122,
   0,
-  4000,
-  7500,
-  10500,
-  13000,
-  16000,
-  18000,
-  19000,
-  19300
+  0.122,
+  0.228,
+  0.320,
+  0.396,
+  0.488,
+  0.549,
+  0.579,
+  0.588
 };
+
+
 
 void setup() {
   AudioMemory(40);

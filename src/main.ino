@@ -19,34 +19,34 @@ AudioConnection patchCord4(wetLogger, 0, stepper, 0);
 
 TeensyAudioPlotter plotter;
 
-int16_t WAVESHAPE_INVERT[2] = {
-  32767,
-  -32768
+float WAVESHAPE_INVERT[2] = {
+  1.0,
+  -1.0
 };
 
-int16_t WAVESHAPE_UNIPOLAR[2] = {
-  32767,
-  0
+float WAVESHAPE_UNIPOLAR[2] = {
+  0.0,
+  1.0
 };
 
-int16_t WAVESHAPE_EXAMPLE[17] = {
-  -19300,
-  -19000,
-  -18000,
-  -16000,
-  -13000,
-  -10500,
-  -7500,
-  -4000,
-  0,
-  4000,
-  7500,
-  10500,
-  13000,
-  16000,
-  18000,
-  19000,
-  19300
+float WAVESHAPE_EXAMPLE[17] = {
+  -0.588,
+  -0.579,
+  -0.549,
+  -0.488,
+  -0.396,
+  -0.320,
+  -0.228,
+  -0.122,
+  0.0,
+  0.122,
+  0.228,
+  0.320,
+  0.396,
+  0.488,
+  0.549,
+  0.579,
+  0.588
 };
 
 void setup() {
@@ -64,9 +64,5 @@ void setup() {
 
 void loop() {
   plotter.step();
-  if(plotter.newBlock()) {
-    Serial.print("(processorUsage)");
-    Serial.println(waveshaper.processorUsage());
-  }
   plotter.done();
 }
